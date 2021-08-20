@@ -1,0 +1,235 @@
+/* ===============================
+   Author: {SRILATHAA VASU}
+   Date:   {19-08-2021}
+   
+   Notes:
+   Hand coded for Build a Website
+   from Scratch with HTML & CSS
+   by Srilathaa 
+   
+   Colour Palette:
+   ---------------
+   Olive Green:       #B6C867
+   Dark Green:        #006d77
+   Middle blue green: #83c5be
+   light blue:        #EDF6F9
+   light pink :       #FFDDD2
+   brown:             #E29578
+   =============================== */
+
+/* General */
+body {
+	background : url('../images/bg-tile.gif') top left repeat;
+	font-size: 14px;
+    /*font-family: 'Open Sans', 'Helvetica Neue', Arial,  sans-serif ; */
+
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 30px 24px;
+}
+ 
+/* Typography */
+h1,h2,h3 {
+    color: #006d77;
+    font-weight: normal;
+    line-height: 44px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    padding: 0 0 10px;
+    font-family: 'Merienda', cursive;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+h2 {
+	font-size: 38px;
+    font-family: 'Courgette', cursive;
+}
+
+h3 {
+	margin: 10px;
+    font-size: 28px;
+    font-family: 'Courgette', cursive;
+}
+
+/* Title */
+
+#header {
+    background: #EDF6F9;
+    border: #006d77 solid;
+}
+
+#title a {
+    background: url('../images/logo.png') center center no-repeat;
+    display: block;
+    border-radius: 80%;
+    height: 250px;
+    width: 300px;
+    text-indent: -99999px;
+    padding: 10px 10px 10px 10px;
+}
+
+#title a:hover {
+    background: url('../images/logo-hover.png') center center no-repeat;
+}
+
+#title h1 {
+    float: right;
+    position: absolute;
+    bottom: 480px;
+    left: 500px;
+}
+
+/* Navigation */ 
+
+
+#nav {
+    text-align: center;
+    background: #FFDDD2 repeat;
+    margin: 20px 0;
+}
+
+#nav ul {
+    list-style: none;
+    display: inline-block;
+    line-height: 50px;
+    padding: 0;
+    margin: 0 auto;
+    height: 100px;
+}
+
+#nav ul li {
+    display: inline-block;
+    padding: 20px 20px;
+    font-size: 15px;    
+}
+
+#nav ul li a {
+    color: #c4004b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nav ul li a:hover {
+    font-size: 18px;
+}
+
+#search {
+    display: inline-block;
+}
+
+.text {
+    background: white repeat;
+    color: #c4004b;
+    font-size: 15px;
+    border: 1px solid #c4004b;
+}
+
+.submit {
+    background: #c4004b repeat;
+    color: #FFDDD2;
+    font-size: 13px;
+    border: 1px solid #c4004b;
+    font-weight: bold;
+}
+
+/* Introduction */
+
+#introduction {
+    background: #EDF6F9;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+#introduction h2 {
+    padding: 30px 30px;
+}
+
+#introduction p{
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    width: 600px;
+    font-size: 20px;
+    padding: 10px 30px;
+    color: #023e8a;
+    text-align: justify;
+}
+
+#introduction img {
+    width: 400px;
+    height: 250px;
+}
+
+/* Left side-bar */
+
+.sidebar {
+    height: 500px;
+    width: 480px;
+    border: 1px solid #006d77;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sidebar ul{
+    padding-top: 8px;  
+    list-style: none; 
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #1d3557;
+    transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    text-decoration: none;
+    color: #1d3557;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#left_sidebar {
+    float: left;
+}
+
+#left_sidebar ul li{
+    padding: 4px 0 4px 10px;
+    list-style-image: url('../images/arrow.png');
+}
+
+/* Right side-bar */
+
+#right_sidebar {
+    float: right;
+}
+
+#right_sidebar ul li{
+    padding: 17px 0 17px 70px;
+    background: url('../images/tick.png') no-repeat left center;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Footer */
+
+.footer {
+    height: 65px;
+    background: #006d77;
+    color: white;
+    padding: 30px 30px;
+    margin-top: 18px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
